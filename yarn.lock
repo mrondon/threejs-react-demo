@@ -1220,6 +1220,13 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
   integrity sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
 
+"@types/three@^0.103.2":
+  version "0.103.2"
+  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.103.2.tgz#f7d49130001c551941a0ded757def810579aafc4"
+  integrity sha512-zhtf0Qs5wLJpIn1+VWCpzSgpKayj/GSWZ6woiuz09FW59KEDeLpnBkYz6lbblVpRmGdlnG8nd0unaASshOvcXw==
+  dependencies:
+    three "*"
+
 "@types/yargs-parser@*":
   version "13.1.0"
   resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-13.1.0.tgz#c563aa192f39350a1d18da36c5a8da382bbd8228"
@@ -7939,7 +7946,7 @@ react-dev-utils@^9.0.4:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-dom@16.10.1:
+react-dom@^16.10.1:
   version "16.10.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.10.1.tgz#479a6511ba34a429273c213cbc2a9ac4d296dac1"
   integrity sha512-SmM4ZW0uug0rn95U8uqr52I7UdNf6wdGLeXDmNLfg3y5q5H9eAbdjF5ubQc3bjDyRrvdAB2IKG7X0GzSpnn5Mg==
@@ -8020,7 +8027,7 @@ react-scripts@3.1.2:
   optionalDependencies:
     fsevents "2.0.7"
 
-react@16.10.1:
+react@^16.10.1:
   version "16.10.1"
   resolved "https://registry.yarnpkg.com/react/-/react-16.10.1.tgz#967c1e71a2767dfa699e6ba702a00483e3b0573f"
   integrity sha512-2bisHwMhxQ3XQz4LiJJwG3360pY965pTl/MRrZYxIBKVj4fOHoDs5aZAkYXGxDRO1Li+SyjTAilQEbOmtQJHzA==
@@ -9207,6 +9214,16 @@ text-table@0.2.0, text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
+
+three-orbit-controls@^82.1.0:
+  version "82.1.0"
+  resolved "https://registry.yarnpkg.com/three-orbit-controls/-/three-orbit-controls-82.1.0.tgz#11a7f33d0a20ecec98f098b37780f6537374fab4"
+  integrity sha1-EafzPQog7OyY8Jizd4D2U3N0+rQ=
+
+three@*, three@^0.108.0:
+  version "0.108.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.108.0.tgz#53d26597c7932f214bb43f4655e566d2058143b5"
+  integrity sha512-d1ysIXwi8qTlbmMwrTxi5pYiiYIflEr0e48krP0LAY8ndS8c6fkLHn6NvRT+o76/Fs9PBLxFViuI62iGVWwwlg==
 
 throat@^4.0.0:
   version "4.1.0"
