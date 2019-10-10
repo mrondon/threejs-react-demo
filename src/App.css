@@ -2,3 +2,87 @@
   text-align: center;
   display: flex;
 }
+
+#canvas-wrapper {
+  margin-top: 1em;
+  overflow: hidden;
+  max-height: 30vh;
+  max-width: 30vw;
+}
+
+#canvas-wrapper canvas {
+  transform: scale(0.1);
+  transform-origin: top left;
+}
+
+.step {
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  padding: 0.5em 1em;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+hr {
+  display: none;
+}
+
+.active1 .step1 {
+  opacity: 1;
+}
+
+.active2 .step1,
+.active2 .step2 {
+  opacity: 1;
+}
+
+.active3 .step1,
+.active3 .step2,
+.active3 .step3 {
+  opacity: 1;
+}
+
+.active4 .step1,
+.active4 .step2,
+.active4 .step3,
+.active4 .step4 {
+  opacity: 1;
+}
+
+.active5 .step1,
+.active5 .step2,
+.active5 .step3,
+.active5 .step4,
+.active5 .step5 {
+  opacity: 1;
+}
+
+.active6 .step1,
+.active6 .step2,
+.active6 .step3,
+.active6 .step4,
+.active6 .step5,
+.active6 .step6 {
+  opacity: 1;
+}
+
+.active7 .step1,
+.active7 .step2,
+.active7 .step3,
+.active7 .step4,
+.active7 .step5,
+.active7 .step6,
+.active7 .step7 {
+  opacity: 1;
+}
+
+.active8 .step1,
+.active8 .step2,
+.active8 .step3,
+.active8 .step4,
+.active8 .step5,
+.active8 .step6,
+.active8 .step7,
+.active8 .step8 {
+  opacity: 1;
+}
